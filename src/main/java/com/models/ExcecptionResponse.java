@@ -1,10 +1,9 @@
 package com.models;
 
-public class Response {
+public class ExcecptionResponse {
 
 	private String errorCode;
 	private String errorMessage;
-	private String responseData;
 
 	public String getErrorCode() {
 		return errorCode;
@@ -22,11 +21,4 @@ public class Response {
 		this.errorMessage = errorMessage;
 	}
 
-	public String getResponseData() {
-		return responseData;
-	}
-
-	public void setResponseData(String responseData) {
-		this.responseData = responseData;
-	}
 }
